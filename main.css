@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "solway";
+    src: url(/assets/Solway-Regular.ttf)
+}
+
+
+
+body {
+    background-image: url("/assets/bg.png");
+    color: #FFF8E7;
+    justify-content: center;
+    align-items: center;
+    font-family:"solway";
+}
+
+#display{
+    display: flex;
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    gap:20px;
+}
+
+#left {
+    background-color: #33284A;  
+
+    border: solid;
+    border-color: #F2B5D4;
+    border-radius: 15px;
+
+    margin-top: 50px;
+    width: 200px;
+}
+
+#main {
+    background-color: #24203A;
+    width: 800px;
+    padding: 25px;
+    min-height: 500px;
+    border: solid;
+    margin-top: 50px;
+    border-color: #F2B5D4;
+    border-radius: 15px;
+}
+
+#right {
+    background-color: #33284A;   
+
+    border: solid;
+    border-color: #F2B5D4;
+    border-radius: 15px;
+
+    margin-top: 50px;
+    width: 220px;
+}
+
+.content {
+    border-style: dotted;
+    padding: 2em;
+    margin-bottom: 2em;
+    border-radius: 25px;
+    border-color: #F2B5D4;
+}
+
+.blinkies-welcome {
+    margin-top: 20px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    position: relative;
+}
+
+.left-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: 200px;
+
+}
+
+a {
+    color: #FFF8E7;
+    text-decoration: none;
+}
+
+.left-list {
+    list-style: none;
+}
+
+.right-stuff {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+}
+
+.stats{
+    border: dashed;
+    border-radius: 15px;
+    border-color: #F2B5D4;
+    margin-top: 10px;
+    height: 80px;
+    width: 180px;
+    position: relative;
+}
+
+.stats-title{
+    position: absolute;
+    top: -13px;
+    left: 52%;
+    background-color: #33284A;
+    font-weight: bold;
+    color: #F2B5D4;;
+}
+
+.stats-counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.updates {
+    border: dashed;
+    border-radius: 15px;
+    border-color: #F2B5D4;
+    margin-top: 10px;
+    height: 150px;
+    width: 180px;
+    position: relative;
+}
+
+.updates-title {
+    position: absolute;
+    top: -13px;
+    left: 90px;
+    background-color: #33284A;
+    font-weight: bold;
+    color: #F2B5D4;;
+}
+
+.updates-scroll {
+    overflow-y: scroll;
+    max-height: 120px;
+    max-width: 100%;
+    padding-left: 0px;
+}
+
+.updates-entry {
+    margin: 10px;
+    list-style: none;
+    font-size: 0.8em;
+}
+
+.aside-divider {
+    margin: 1em;
+}
